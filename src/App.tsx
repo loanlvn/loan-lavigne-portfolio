@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react";
 import { lazy, Suspense, useState } from "react";
 import { Header } from "./components/layout/Header";
 import { AboutSection } from "./components/sections/AboutSection";
@@ -37,6 +38,8 @@ export default function App() {
           onClose={() => setSelectedVideo(null)}
         />
       </Suspense>
+
+      <Analytics />
     </div>
   );
 }
