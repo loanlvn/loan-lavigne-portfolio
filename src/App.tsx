@@ -22,11 +22,8 @@ export default function App() {
 
       <main>
         <HeroSection />
-        <StatsSection />
         <PortfolioSection onOpenVideo={setSelectedVideo} />
         <AboutSection />
-        <ServicesSection />
-        <WhyWorkWithMeSection />
         <ContactSection />
       </main>
 
