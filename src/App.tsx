@@ -6,9 +6,6 @@ import { ContactSection } from "./components/sections/ContactSection";
 import { Footer } from "./components/sections/Footer";
 import { HeroSection } from "./components/sections/HeroSection";
 import { PortfolioSection } from "./components/sections/PortfolioSection";
-import { ServicesSection } from "./components/sections/ServicesSection";
-import { StatsSection } from "./components/sections/StatsSection";
-import { WhyWorkWithMeSection } from "./components/sections/WhyWorkWithMeSection";
 import type { PortfolioVideo } from "./types";
 
 const VideoModal = lazy(() => import("./components/ui/VideoModal"));
